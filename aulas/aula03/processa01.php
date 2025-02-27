@@ -1,6 +1,6 @@
 <?php
-    $nome = $_POST['cxnome'];
-    $idade = $_POST['cxidade'];
+    $nome = $_GET['cxnome'];
+    $idade = $_GET['cxidade'];
 
     echo "Nome armazenado na variável: $nome<br>";
     echo "Nome armazenado na variável: $idade<br>";
