@@ -8,16 +8,16 @@
 <body>
     
 
-    <form action="exe01.php" method="get">
+    <form action="exe02.php" method="GET">
 
-        <p><label for="n1">Primeira nota:</label></p>
-        <input type="number" required="" max="10" min="0" id="n1" name="n1">
+        <p><label for="n1">Primeiro número</label></p>
+        <input type="number" required="" id="n1" name="n1">
 
-        <p><label for="n2">Segunda nota:</label></p>
-        <input type="number" required="" max="10" min="0" id="n2" name="n2">
+        <p><label for="n2">Segundo número:</label></p>
+        <input type="number" required="" id="n2" name="n2">
 
-        <p><label for="n3">Terceira nota:</label></p>
-        <input type="number" required="" max="10" min="0" id="n3" name="n3">
+        <p><label for="n3">Terceiro número:</label></p>
+        <input type="number" required="" id="n3" name="n3">
         <br>
 
         <input type="submit" value="ENVIAR">
