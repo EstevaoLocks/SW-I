@@ -1,0 +1,41 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background-image: url(../assets/img/background-login.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.my-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-container-t {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-container-login {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: rgb(255, 255, 255, 0.15);
+}
