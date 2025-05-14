@@ -21,4 +21,5 @@
 
     $lamp2->Desligar();
     $lamp2->MostrarDados();
+    
 ?>
