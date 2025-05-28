@@ -21,8 +21,8 @@
         public function setNome($nome){
             $this->Nome = $nome;
         }
-        public function setPreco($valor){
-            if ($valor < 0){
+        public function setPreco($preco){
+            if ($preco < 0){
                 echo "VALOR NÃO PERMITIDO";
             }else{
                 $this->Preco = $preco;
@@ -42,10 +42,21 @@
                 echo "VALOR NÃO PERMITIDO";
             }
         }
+
+        // public function MostrarDetalhes(){
+        //     echo "NOME: {$this->getNome()} <br>";
+        //     echo "PRECO: R${$this->getPreco()} <br>";
+        //     echo "QUANTIDADE: {$this->Quantidade} <br>";
+        // }
+
         public function MostrarDetalhes(){
             echo "NOME: {$this->getNome()} <br>";
-            echo "PRECO: R${$this->getPreco()} <br>";
-            echo "QUANTIDADE: {$this->Quantidade} <br>";
+            
+            echo "PRECO: R$" . number_format($this->getPreco(),2,',','.') . " <br>";
+            
+            // echo "PRECO: R${$this->getPreco()} <br>";
+            echo "QUANTIDADE: " . number_format($this->Quantidade,2,',','.') . " <br>";
+            // echo "QUANTIDADE: {$this->Quantidade} <br>";
         }
     }
 
