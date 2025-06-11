@@ -22,7 +22,7 @@
 
         public function exibirStatus(){
             echo "Título: " . $this->titulo;
-            echo "Título: " . $this->autor;
+            echo "Autor: " . $this->autor;
             if ($this->disponivel == true){
                 echo "Esse livro está: disponível";
             }else{
