@@ -1,6 +1,6 @@
 <?php
 
-    class Livro{
+    class Funcionario{
 
         private $nome;
         private $salario;
