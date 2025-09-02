@@ -11,4 +11,5 @@
     } else {
         echo "Erro ao atualizar produto.";
     }
+    
  ?>
